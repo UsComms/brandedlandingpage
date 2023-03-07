@@ -63,8 +63,8 @@ body {
 
 .overlay-content {
   position: absolute;
-  bottom: 10px;
-  padding: 20px;
+  bottom: 50px;
+  left: 20px;
   color: #E5E5E5;
   z-index: 1;
 }
@@ -298,7 +298,9 @@ a:hover {
 }
 
 .btn-primary {
-  --bs-btn-hover-color: #ffffff;
-  --bs-btn-hover-bg: #e86256;
+  --bs-btn-hover-color: #121212;
+  --bs-btn-hover-bg: #E5E5E5;
+  --bs-btn-hover-border-color: #E5E5E5;
+  --bs-btn-active-bg: #e5e5e5;
 }
 
